@@ -21,6 +21,7 @@ type Options struct {
 	Patches                string
 	ArtifactStorage        *ArtifactStorage
 	Sync                   *Sync
+	ManifestsArtifactURL   string
 }
 
 // MakeDefaultOptions returns the default builder configuration.
